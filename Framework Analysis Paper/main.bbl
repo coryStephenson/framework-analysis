@@ -1,0 +1,168 @@
+\begin{thebibliography}{24}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[NIS(2023)]{NIST2023}
+{information technology (IT) - Glossary {$\vert$} CSRC}.
+\newblock \url{https://csrc.nist.gov/glossary/term/information_technology},
+  December 2023.
+\newblock [Online; accessed December 8th, 2023].
+
+\bibitem[Kip~Boyle(2023)]{boyle2023}
+Lisa~McKinley Kip~Boyle, Jason~Dion.
+\newblock \emph{Mastering Cyber Resilience}.
+\newblock Akylade Certified. Akylade, jul 2023.
+
+\bibitem[csf({\natexlab{a}})]{csfNIST80053}
+{N}{I}{S}{T} {S}{P} 800-53, {R}evision 5 - {C}{S}{F} {T}ools --- csf.tools.
+\newblock \url{https://csf.tools/reference/nist-sp-800-53/r5/}, {\natexlab{a}}.
+\newblock [Accessed 20-12-2023].
+
+\bibitem[csf({\natexlab{b}})]{csfNIST800171}
+{N}{I}{S}{T} {S}{P} 800-171 {R}evision 2 - {C}{S}{F} {T}ools --- csf.tools.
+\newblock \url{https://csf.tools/reference/nist-sp-800-171/r2/},
+  {\natexlab{b}}.
+\newblock [Accessed 21-12-2023].
+
+\bibitem[Espinosa(2021)]{Espinosa2021-is}
+Christian Espinosa.
+\newblock \emph{The smartest person in the room the smartest person in the
+  room}.
+\newblock Lioncrest Publishing, February 2021.
+
+\bibitem[Grama(2022)]{grama2022}
+Joanna~Lyn Grama.
+\newblock \emph{Legal and Privacy Issues in Information Security}.
+\newblock Information Systems Security \& Assurance Series. Jones \& Bartlett
+  Learning, third edition, 2022.
+
+\bibitem[K{\ifmmode\ddot{o}\else\"{o}\fi}ller(2023)]{koller2023}
+Joe K{\ifmmode\ddot{o}\else\"{o}\fi}ller.
+\newblock {NIST 800-53 and NIST 800-171: What{`}s the Difference?}
+\newblock
+  \url{https://www.tenfold-security.com/en/nist-800-53-and-171-differences/},
+  October 2023.
+\newblock [Online; accessed December 8th, 2023].
+
+\bibitem[\"{O}z\c{s}ahan(2023)]{Ozsahan2022}
+Hatice \"{O}z\c{s}ahan.
+\newblock {Top 5 Cybersecurity Frameworks and Standards {$\vert$} Resmo}.
+\newblock
+  \url{https://www.resmo.com/blog/top-cybersecurity-frameworks-and-standards},
+  2023.
+\newblock [Online; accessed December 8th, 2023].
+
+\bibitem[cis(2021)]{cisecurity2021}
+{CIS Critical Security Controls Implementation Groups}.
+\newblock \url{https://www.cisecurity.org/controls/implementation-groups},
+  November 2021.
+\newblock [Online; accessed December 8th, 2023].
+
+\bibitem[Autodit(2023)]{Autodit2023}
+Autodit.
+\newblock {ISO 27001: A Comprehensive Guide to Information Security
+  Management}.
+\newblock \emph{Medium}, July 2023.
+\newblock [Online; accessed December 8th, 2023].
+
+\bibitem[Irwin(2023)]{Irwin2023Mar}
+Luke Irwin.
+\newblock {ISO 27001 {\&} Information Classification: Free 4-Step Guide}.
+\newblock
+  \url{https://itgovernance.co.uk/blog/what-is-information-classification-and-how-is-it-relevant-to-iso-27001},
+  March 2023.
+\newblock [Online; accessed December 8th, 2023].
+
+\bibitem[DeNisco~Rayome(2019)]{rayome2019}
+Alison DeNisco~Rayome.
+\newblock {How to choose the right cybersecurity framework}.
+\newblock
+  \url{https://www.techrepublic.com/article/how-to-choose-the-right-cybersecurity-framework},
+  March 2019.
+\newblock [Online; accessed December 8th, 2023].
+
+\bibitem[Siddiqui()]{securityboulevardNISTWhat}
+Maahnoor Siddiqui.
+\newblock {N}{I}{S}{T} vs. {I}{S}{O} -{W}hat {Y}ou {N}eed {T}o {K}now ---
+  securityboulevard.com.
+\newblock
+  \url{https://securityboulevard.com/2022/06/nist-vs-iso-what-you-need-to-know/}.
+\newblock [Accessed 16-10-2023].
+
+\bibitem[Olzak(2021)]{olzak2021}
+Tom Olzak.
+\newblock {How To Pick The Best Security Framework For Your Organization}.
+\newblock
+  \url{https://www.spiceworks.com/it-security/cyber-risk-management/articles/best-security-framework/},
+  July 2021.
+\newblock [Online; accessed December 8th, 2023].
+
+\bibitem[sec(2023)]{secureframe2023}
+{ISO 27001 Certification Costs}.
+\newblock \url{https://secureframe.com/hub/iso-27001/certification-cost},
+  December 2023.
+\newblock [Online; accessed December 8th, 2023].
+
+\bibitem[isp(2023)]{ispartners2023}
+{Regulatory Compliance Costs {\&} How It Helps Your Bottom Line}.
+\newblock \url{https://www.ispartnersllc.com/blog/rising-compliance-costs/},
+  December 2023.
+\newblock [Online; accessed December 8th, 2023].
+
+\bibitem[Sharp and Lambros(2022)]{Sharp2022-lx}
+Matthew~K Sharp and Kyriakos Lambros.
+\newblock \emph{The {CISO} evolution}.
+\newblock John Wiley \& Sons, Nashville, TN, April 2022.
+
+\bibitem[Shortridge and Dykstra(2023)]{Shortridge2023-sk}
+Kelly Shortridge and Josiah Dykstra.
+\newblock Opportunity cost and missed chances in optimizing cybersecurity.
+\newblock \emph{Commun. ACM}, 66\penalty0 (7):\penalty0 96--104, July 2023.
+
+\bibitem[Spruit and de~Bruijn(2012)]{Spruit2012-dr}
+Marco Spruit and Wouter de~Bruijn.
+\newblock {CITS}.
+\newblock \emph{Int. J. Inf. Secur. Priv.}, 6\penalty0 (4):\penalty0 94--116,
+  October 2012.
+
+\bibitem[Delfin()]{delfin_six_nodate}
+Cameron Delfin.
+\newblock The {Six} {Stages} of {Cyber} {Security} {Risk} and {Compliance}
+  {Automation}.
+\newblock
+  \url{https://www.cybersaint.io/blog/the-six-stages-of-cyber-risk-and-compliance-automation}.
+\newblock [Online; accessed December 15th, 2023].
+
+\bibitem[Wong(2022)]{Wong}
+Calvin Wong.
+\newblock Investigation of information risk management frameworks.
+\newblock 05 2022.
+
+\bibitem[Roy(2020)]{Roy2020AHC}
+Prameet~P. Roy.
+\newblock A high-level comparison between the nist cyber security framework and
+  the iso 27001 information security standard.
+\newblock \emph{2020 National Conference on Emerging Trends on Sustainable
+  Technology and Engineering Applications (NCETSTEA)}, pages 1--3, 2020.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:219990502}.
+
+\bibitem[Forge()]{compforge}
+Compliance Forge.
+\newblock {N}{I}{S}{T} 800-53 vs {I}{S}{O} 27002 vs {N}{I}{S}{T} {C}{S}{F}.
+\newblock
+  \url{https://complianceforge.com/grc/nist-800-53-vs-iso-27002-vs-nist-csf-vs-scf}.
+\newblock [Accessed 20-12-2023].
+
+\bibitem[Donaldson et~al.(2018)Donaldson, Siegel, Williams, and
+  Aslam]{Donaldson2018}
+Scott~E. Donaldson, Stanley~G. Siegel, Chris~K. Williams, and Abdul Aslam.
+\newblock \emph{Mapping Against Cybersecurity Frameworks}, pages 429--447.
+\newblock Apress, Berkeley, CA, 2018.
+\newblock ISBN 978-1-4842-3258-3.
+\newblock \doi{10.1007/978-1-4842-3258-3_13}.
+\newblock URL \url{https://doi.org/10.1007/978-1-4842-3258-3_13}.
+
+\end{thebibliography}

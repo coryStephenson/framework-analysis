@@ -1,0 +1,45 @@
+\KOMAoptions{paper=landscape,DIV=last}
+\newgeometry{ left=1in,right=1in,bottom=1in,textheight=6.5in}
+\fancyheadoffset{0pt}% recalculate headwidth for fancyhdr
+
+
+\vspace*{\fill}
+\begin{table}[h!] %% float environment
+              \centering
+              %\renewcommand*{\arraystretch}{1.1}
+              \setlength{\extrarowheight}{5pt}
+              \small
+              \noindent\makebox[\textwidth]{
+\begin{tabularx}{1.13\textwidth}{>{\columncolor{blue}\color{white}\bfseries}l|c|c|c|c|c|c|c|c|c}
+\hline
+ \rowcolor[gray]{0.8}
+\color{black} \multirow{2}{*}{\textbf{Category}} & \multicolumn{3}{|c|}{\textbf{Cost Range Tier 1}} & \multicolumn{3}{|c|}{\textbf{Cost Range Tier 2}} & \multicolumn{3}{c}{\textbf{Cost Range Tier 3}} \\[6pt]
+\cline{2-10}
+\rowcolor[gray]{0.8}
+\color{black} & \multicolumn{3}{|c|}{\textbf{Max Cyber Budget: \$50,000}} & \multicolumn{3}{|c|}{\textbf{Max Cyber Budget: \$500,000}} & \multicolumn{3}{c}{\textbf{Max Cyber Budget: \$5,000,000}} \\[6pt] 
+\cline{2-10}
+\rowcolor[gray]{0.8}
+\color{black} & \textbf{No-Cost} & \textbf{Low} & \textbf{High} & \textbf{No-Cost} & \textbf{Low} & \textbf{High} & \textbf{No-Cost} & \textbf{Low} & \textbf{High} \\[6pt]
+\hline
+\hline
+Asset Management & \$0 & \$556 & \$2,044 & \$0 & \$690 & \$3,896 & \$0 & \$790 & \$18,414 \\[3pt]
+Data Management & \$0 & \$1,148 & \$14,566 & \$0 & \$11,192 & \$41,918 & \$0 & \$87,027 & \$387,867 \\[3pt]
+Secure Configurations & \$0 & \$968 & \$9,008 & \$0 & \$4,710 & \$47,494 & \$0 & \$18,138 & \$269,263 \\[3pt]
+Account and Access Control Mgmt. & \$0 & \$1,579 & \$4,025 & \$0 & \$7,063 & \$39,240 & \$0 & \$29,412 & \$388,728 \\[3pt]
+Vulnerability Management & \$0 & \$345 & \$1,969 & \$0 & \$845 & \$7,200 & \$0 & \$5,285 & \$64,746 \\[3pt]
+Log Management & \$0 & \$88 & \$2,520 & \$0 & \$632 & \$10,866 & \$0 & \$3,543 & \$54,000 \\[3pt]
+Malware Defense & \$0 & \$452 & \$1,399 & \$0 & \$5,591 & \$10,799 & \$0 & \$44,870 & \$107,898 \\[3pt]
+Data Recovery & \$0 & \$650 & \$2,143 & \$0 & \$2,925 & \$11,888 & \$0 & \$28,275 & \$118,701 \\[3pt]
+Security Training & \$0 & \$120 & \$450 & \$0 & \$1,440 & \$3,660 & \$0 & \$3,420 & \$36,570 \\[3pt]
+Incident Response & \$0 & \$0 & \$0 & \$0 & \$0 & \$0 & \$0 & \$0 & \$0\\[3pt]
+\hline
+\hline
+TOTAL & \textbf{\$0} & \textbf{\$5,906} & \textbf{\$38,124} & \textbf{\$0} & \textbf{\$35,088} & \textbf{\$176,961} & \textbf{\$0} & \textbf{\$220,760} & \textbf{\$1,446,187} \\
+\end{tabularx}
+}
+\end{table}
+\vspace*{\fill}
+
+\KOMAoptions{paper=portrait,DIV=last}
+\restoregeometry
+\fancyheadoffset{0pt}

@@ -1,0 +1,208 @@
+\documentclass[12pt]{article}
+
+\input{preamble.tex} % Include the document which specifies all packages and structural customizations for this template
+
+%%-----------------------Beginning of Document---------------------------%%
+
+\begin{document}
+\setlength\parindent{15pt}
+
+                    \import{}{titlepage-and-toc}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+
+     \section{Introduction}
+
+               \subsection{Objectives for Framework Analysis}
+
+                                        \import{quotes/}{objectives-for-framework-analysis}
+
+               \subsection{Objectives for Framework Implementation}
+
+                                        \import{quotes/}{objectives-for-framework-implementation}
+
+                                        \import{quotes/}{cyber-resilience}
+                                        
+\cleardoublepage
+
+                                        \import{quotes/}{cybersecurity-definition}
+                                       
+               \subsection{Treasury's Current Framework Status}
+     
+                                        \import{quotes/}{andrew-sprague}
+
+                                        \import{quotes/}{comprehensive-cybersecurity-framework}
+
+\cleardoublepage
+
+      \section{Frameworks}
+      
+               
+                \import{standards/}{compliance-standards}
+                
+                 \subsection{Control Frameworks}
+                                
+                                \import{figures/}{breadth-depth-controls}
+                                
+                                \subsubsection{NIST 800-53}
+                                
+                                               \import{quotes/}{nist-sp-800-53r5}
+                                \subsubsection{NIST 800-171}
+                                
+                                               \import{quotes/}{nist-sp-800-171r2}
+                                \subsubsection{CIS Controls (CSC)}       
+                                        
+                                        \import{quotes/}{cis-csc}
+                                        
+                                        \import{figures/}{Top5CISControls}
+                                        
+                                        
+\cleardoublepage
+                                        
+                                        
+                                        
+                               \subsubsection{Resources}                       
+                                        \begin{itemize}
+                                               \item \href{https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf}{NIST SP 800-53 Revision 5}
+                                               \item \href{https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53Ar5.pdf}{NIST SP 800-53A Revision 5}
+                                               \item \href{https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r2.pdf}{NIST SP 800-171 Revision 2}
+                                               \item \href{https://www.cisecurity.org/controls/cis-controls-list}{The 18 CIS Critical Security Controls}
+                                               \item \href{https://www.cisecurity.org/controls/implementation-groups/ig1}{CIS CSC Implementation Group 1}
+                                               \item \href{https://www.cisecurity.org/controls/implementation-groups/ig2}{CIS CSC Implementation Group 2}
+                                               \item \href{https://www.cisecurity.org/controls/implementation-groups/ig3}{CIS CSC Implementation Group 3}
+                                               \item \href{https://www.cisecurity.org/cybersecurity-tools/mapping-compliance}{Mapping and Compliance}
+                                               \item \href{https://www.cisecurity.org/controls/cis-controls-navigator}{CIS Critical Security Controls Navigator}
+                                               
+                                        \end{itemize}
+                \subsection{Program Frameworks}
+                
+                              \subsubsection{ISO 27001}
+                              
+                                             \import{quotes/}{iso27001-2}
+                              
+                              \subsubsection{Combining ISO 27001 with the NIST Cybersecurity Framework (CSF)}
+                              
+                                             \import{quotes/}{iso2700-with-nistcsf}
+                \subsection{Risk Frameworks}
+                
+                               \subsubsection{ISO 27005}
+                               
+                               \subsubsection{NIST 800-39}
+                               
+                               \subsubsection{NIST 800-37}
+                               
+                               \subsubsection{NIST 800-30}
+                               
+                               \subsubsection{FAIR}
+                               
+               \subsection{Honorable Mentions}                               
+                                 
+                                 \begin{itemize}
+                                        \item \href{https://securecontrolsframework.com/start-here/}{Secure Controls Framework}
+                                        \item \href{https://cms.unifiedcompliance.com/}{Unified Compliance Framework}
+                                 \end{itemize}
+                                 
+                                                                  
+                \subsection{Selecting Appropriate Framework(s)}
+                                  
+                                  I took a LinkedIn Learning course in October of 2023, entitled \href{https://www.linkedin.com/learning/security-frameworks-fundamentals?u=70639972}{Security Frameworks Fundamentals}.\ The instructor (Mandy Huth) provided a number of key considerations whenever you are selecting appropriate frameworks for your organization:
+\vspace{10pt}
+
+\begin{enumerate}
+\item Do you have any regulatory or compliance requirements?
+\item What is your organizations risk management approach?
+\item Does it need a risk management program as well?
+\item Are there any industry-specific requirements that apply to your organization?
+\item What is the current status of your current security controls and practices?
+\item What resources and budget does your company have?
+\item What are your organizations goals and objectives for its security program?
+\item What is the focus of the current/desired framework: risk management, compliance, or cyberthreats
+\item Who are the key stakeholders that may be impacted by implementing the controls?
+\end{enumerate}
+\vspace{10pt}
+
+                                        \import{figures/}{tom-olzak}
+                                        
+                                        \import{figures/}{complianceforge}
+                                        
+                                        \import{figures/}{six-stages}
+                                        
+                                        \import{tables/}{frmwrk-cmprsn-tbls}
+
+                                        \import{figures/}{compare-charts}
+                                        
+                                        \import{tables/}{cost-of-IG1}
+
+                                        \import{tables/}{iso27001-cert-costs}
+                                        
+                                        \import{tables/}{nist-csf-vs-cis-csc}
+                                        
+
+
+
+
+\begin{formal}
+    
+\begin{quote} 
+\begin{minipage}{\linewidth}
+\stepcounter{footnote}
+\renewcommand\thempfootnote{\textcolor{orange}{\arabic{footnote}}}
+
+    
+Often times, when a security professional enters a new environment to build and manage a team, they are dealing with an organization that is relatively immature from an IT and security perspective, Kim said.\ In those cases, they want to determine the basic set of controls to implement.
+
+\vspace{10pt}
+
+Cybersecurity professionals use control frameworks to do the following, according to Kim:
+
+\vspace{10pt}
+
+                                        \begin{itemize}
+                                               \item Assess the state of the overall security program 
+                                               \item Build a comprehensive security program 
+                                               \item Measure maturity and conduct industry comparisons 
+                                               \item Simplify communications with business leaders 
+                                        \end{itemize}
+\vspace{10pt}
+
+NIST SP 800-53 is a comprehensive control catalog of security and privacy controls, in which control can be implemented based on priority or secure control baselines (low impact, moderate impact, or high impact).\ CIS Controls, meanwhile, have published the top 20 critical security control, which the US Department of State uses, Kim said.\cite{rayome2019}
+\vspace{10pt}
+
+\begin{flushright}
+--- Alison DeNisco Rayome\\ 
+Managing Editor of ZDNET Commerce\\
+March 7, 2019
+\end{flushright}
+\vspace{10pt}
+\end{minipage}
+\end{quote}
+\end{formal}                                        
+                   
+     
+     \nocite{*}
+     \bibliographystyle{unsrtnat}
+     \raggedright
+     \bibliography{bibliography}
+     
+     
+     %\cleardoublepage
+     
+     %\begin{appendices}
+     
+     %\section{Mindmaps for the ISO 27000 Series} \label{ISO 27000}
+     
+     %\includepdf[pages={1-6},pagecommand={\thispagestyle{fancy}}, fitpaper=true]{./appendices/iso-27k-mindmaps}
+     %\end{appendices}
+\end{document}
+
+
+
+
+
+                                                          
+
+               
+
+  

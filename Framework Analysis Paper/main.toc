@@ -1,0 +1,25 @@
+\contentsline {section}{List of Tables}{i}{section*.1}%
+\contentsline {section}{List of Figures}{i}{section*.2}%
+\contentsline {section}{\numberline {\hspace {2pt}1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {\hspace {2pt}1.1}Objectives for Framework Analysis}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {\hspace {2pt}1.2}Objectives for Framework Implementation}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {\hspace {2pt}1.3}Treasury's Current Framework Status}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {\hspace {2pt}2}Frameworks}{4}{section.2}%
+\contentsline {subsection}{\numberline {\hspace {2pt}2.1}Control Frameworks}{9}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {\hspace {2pt}2.1.1}NIST 800-53}{9}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {\hspace {2pt}2.1.2}NIST 800-171}{10}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {\hspace {2pt}2.1.3}CIS Controls (CSC)}{14}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {\hspace {2pt}2.1.4}Resources}{16}{subsubsection.2.1.4}%
+\contentsline {subsection}{\numberline {\hspace {2pt}2.2}Program Frameworks}{16}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {\hspace {2pt}2.2.1}ISO 27001}{16}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {\hspace {2pt}2.2.2}Combining ISO 27001 with the NIST Cybersecurity Framework (CSF)}{17}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {\hspace {2pt}2.3}Risk Frameworks}{18}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {\hspace {2pt}2.3.1}ISO 27005}{18}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {\hspace {2pt}2.3.2}NIST 800-39}{18}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {\hspace {2pt}2.3.3}NIST 800-37}{18}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {\hspace {2pt}2.3.4}NIST 800-30}{18}{subsubsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {\hspace {2pt}2.3.5}FAIR}{18}{subsubsection.2.3.5}%
+\contentsline {subsection}{\numberline {\hspace {2pt}2.4}Honorable Mentions}{18}{subsection.2.4}%
+\contentsline {subsection}{\numberline {\hspace {2pt}2.5}Selecting Appropriate Framework(s)}{18}{subsection.2.5}%
+\contentsline {section}{\numberline {\hspace {2pt}3}References}{31}{section.3}%
+\contentsfinish 

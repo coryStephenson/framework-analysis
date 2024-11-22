@@ -1,0 +1,73 @@
+\begin{formal}
+\begin{quote}
+Today, more than at any time in history, the federal government is relying on external service providers to help carry out a wide range of federal missions and business functions using information systems.\ Many federal contractors process, store, and transmit sensitive federal information to support the delivery of essential products and services to federal agencies (e.g., providing financial services; providing web and electronic mail services; processing security clearances or healthcare data; providing cloud services; and developing communications, satellite, and weapons systems).\ Federal information is frequently provided to or shared with entities such as state and local governments, colleges and universities, and independent research organizations.\ The protection of sensitive federal information while residing in \textit{nonfederal systems} and organizations is of paramount importance to federal agencies, and can directly impact the ability of the federal government to carry out its designated missions and business operations.
+
+\hfill
+---\cite{csfNIST800171}
+\end{quote}
+\end{formal}
+
+\begin{formal}
+    
+\begin{quote} 
+\begin{minipage}{\linewidth}
+\stepcounter{footnote}
+\renewcommand\thempfootnote{\textcolor{orange}{\arabic{footnote}}}
+
+The protection of unclassified federal information in nonfederal systems and organizations is dependent on the federal government providing a process for identifying the different types of information that are used by federal agencies.\ EO 13556\footnote{\href{https://obamawhitehouse.archives.gov/the-press-office/2010/11/04/executive-order-13556-controlled-unclassified-information}{Executive Order 13556 -- Controlled Unclassified Information}} established a governmentwide Controlled Unclassified Information (CUI) Program to standardize the way the executive branch handles unclassified information that requires protection.\ Only information that requires safeguarding or dissemination controls pursuant to federal law, regulation, or governmentwide policy may be designated as CUI.\ The CUI Program is designed to address several deficiencies in managing and protecting unclassified information to include inconsistent markings, inadequate safeguarding, and needless restrictions, both by standardizing procedures and by providing common definitions through a CUI Registry NARA CUI.\ The CUI Registry is the online repository for information, guidance, policy, and requirements on handling CUI, including issuances by the CUI Executive Agent.\ The CUI Registry identifies approved CUI categories, provides general descriptions for each, identifies the basis for controls, and sets out procedures for the use of CUI including, but not limited to, marking, safeguarding, transporting, disseminating, reusing, and disposing of the information.
+
+\hfill
+---\cite{csfNIST800171}
+\end{minipage}
+\end{quote}
+\end{formal}
+
+\begin{formal}
+\begin{quote}
+
+EO 13556 also required that the CUI Program emphasize openness, transparency, and uniformity of governmentwide practices, and that the implementation of the program take place in a manner consistent with applicable policies established by the Office of Management and Budget (OMB) and federal standards and guidelines issued by the National Institute of Standards and Technology (NIST).\ The federal CUI regulation,developed by the CUI Executive Agent, provides guidance to federal agencies on the designation, safeguarding, dissemination, marking, decontrolling, and disposition of CUI, establishes self-inspection and oversight requirements, and delineates other facets of the program.
+\vspace{10pt}
+
+The purpose of this publication is to provide federal agencies with recommended security requirements for protecting the confidentiality of CUI: (1) when the CUI is resident in a nonfederal system and organization; (2) when the nonfederal organization is not collecting or maintaining information on behalf of a federal agency or using or operating a system on behalf of an agency; and (3) where there are no specific safeguarding requirements for protecting the confidentiality of CUI prescribed by the authorizing law, regulation, or governmentwide policy for the CUI category listed in the CUI Registry.
+\vspace{10pt}
+
+The requirements apply to components of nonfederal systems that process, store, or transmit CUI, or that provide security protection for such components.\ If nonfederal organizations designate specific system components for the processing, storage, or transmission of CUI, those organizations may limit the scope of the security requirements by isolating the designated system components in a separate CUI security domain.\ Isolation can be achieved by applying architectural and design concepts (e.g., implementing subnetworks with firewalls or other boundary protection devices and using information flow control mechanisms).\ Security domains may employ physical separation, logical separation, or a combination of both.\ This approach can provide adequate security for the CUI and avoid increasing the organization’s security posture to a level beyond that which it requires for protecting its missions, operations, and assets.
+\vspace{10pt}
+
+The recommended security requirements in this publication are intended for use by federal agencies in appropriate contractual vehicles or other agreements established between those agencies and nonfederal organizations.\ In CUI guidance and the CUI Federal Acquisition Regulation (FAR), the CUI Executive Agent will address determining compliance with security requirements.
+\vspace{10pt}
+
+In accordance with the federal CUI regulation, federal agencies using federal systems to process, store, or transmit CUI, at a minimum, must comply with:
+\vspace{10pt}
+
+\begin{itemize}
+\item Federal Information Processing Standards (FIPS) Publication 199, \textit{Standards for Security Categorization of Federal Information and Information Systems} (moderate confidentiality); 
+\item Federal Information Processing Standards (FIPS) Publication 200, \textit{Minimum Security Requirements for Federal Information and Information Systems};
+\item NIST Special Publication 800-53, \textit{Security and Privacy Controls for Federal Information Systems and Organizations}; and
+NIST Special Publication 800-60, \textit{Guide for Mapping Types of Information and Information Systems to Security Categories}.
+\end{itemize}
+\vspace{10pt}
+
+The responsibility of federal agencies to protect CUI does not change when such information is shared with nonfederal partners.\ Therefore, a similar level of protection is needed when CUI is processed, stored, or transmitted by nonfederal organizations using nonfederal systems.\ The recommended requirements for safeguarding CUI in nonfederal systems and organizations are derived from the above authoritative federal standards and guidelines to maintain a consistent level of protection.\ However, recognizing that the scope of the safeguarding requirements in the federal CUI regulation is limited to the security objective of confidentiality (i.e., not directly addressing integrity and availability) and that some of the security requirements expressed in the NIST standards and guidelines are uniquely federal, the requirements in this publication have been tailored for nonfederal entities.
+\vspace{10pt}
+
+The tailoring criteria described in Chapter Two are not intended to reduce or minimize the federal requirements for the safeguarding of CUI as expressed in the federal CUI regulation.\ Rather, the intent is to express the requirements in a manner that allows for and facilitates the equivalent safeguarding measures within nonfederal systems and organizations and does not diminish the level of protection of CUI required for moderate confidentiality.\ Additional or differing requirements, other than the requirements described in this publication, may be applied only when such requirements are based on law, regulation, or governmentwide policy and when indicated in the CUI Registry as CUI-specified or when an agreement establishes requirements to protect CUI Basic at higher than moderate confidentiality.\ The provision of safeguarding requirements for CUI in a specified category will be addressed by the National Archives and Records Administration (NARA) in its CUI guidance and in the CUI FAR; and reflected as specific requirements in contracts or other agreements.\ Nonfederal organizations may use the same CUI infrastructure for multiple government contracts or agreements, if the CUI infrastructure meets the safeguarding requirements for the organization’s CUI-related contracts and/or agreements including any specific safeguarding required or permitted by the authorizing law, regulation, or governmentwide policy.
+\vspace{10pt}
+
+This publication serves a diverse group of individuals and organizations in both the public and private sectors including, but not limited to, individuals with:
+\vspace{10pt}
+
+\begin{itemize}
+\item System development life cycle responsibilities (e.g., program managers, mission/business owners, information owners/stewards, system designers and developers, system/security engineers, systems integrators);
+\item Acquisition or procurement responsibilities (e.g., contracting officers);
+\item System, security, or risk management and oversight responsibilities (e.g., authorizing officials, chief information officers, chief information security officers, system owners, information security managers); and
+\item Security assessment and monitoring responsibilities (e.g., auditors, system evaluators, assessors, independent verifiers/validators, analysts).
+\end{itemize}
+\vspace{10pt}
+
+The above roles and responsibilities can be viewed from two distinct perspectives: the federal perspective as the entity establishing and conveying the security requirements in contractual vehicles or other types of inter-organizational agreements; and the nonfederal perspective as the entity responding to and complying with the security requirements set forth in contracts or agreements.
+
+\hfill
+---\cite{csfNIST800171}
+\end{quote}
+\end{formal} 
